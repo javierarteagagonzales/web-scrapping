@@ -1,0 +1,20 @@
+#!/bin/bash
+https://saintseiya.fandom.com/es/wiki/Saint_Seiya
+echo "Estas son las máquinas disponibles: "
+cat log.log | greg
+
+
+
+Haz scrapping a ésta página https://saintseiya.fandom.com/es/wiki/Saint_Seiya con Python y Beatiful Soup
+Lozaliza el elemento que tiene el tag "div" y el id "toc" y extrae todos los elementos
+obtén el atributo de texto e imprimirlo
+
+Haz scrapping a ésta página https://www.amazon.com/s?k=tech+books&__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1 con Python, selenium y chromedriver
+Espera 5 segundos y localiza a todos los elementos que tengan el siguientes XPath: "span" tag, "class" nombre de atributo, y "a-size-base-plus a-color-base a-text-normal" valor de atributo.
+Imprime el texto dentro de estos elementos.
+
+Haz scrapping a ésta página  https://twitter.com/search?q=javascript&src=typed_query con Python, selenium y chromedriver
+Maximiza la ventana, espera 15 segundos y localiza todos los elementos que tengan el siguiente XPath tag "div", nombre de atributo "lang"
+Imprime el texto dentro de estos elementos.
+
+
